@@ -20,17 +20,18 @@ public class UserController {
     private UserService userService;
 
 
-    @ApiOperation(value = "获取用户",notes = "获取用户")
+    @ApiOperation(value = "根据用户名获取用户",notes = "")
     @RequestMapping(value = "/user/{name}",method = RequestMethod.GET)
-    public String getUserInfo(@PathVariable(name = "name")String name, ModelMap modelMap){
+    public String getUserInfo(@PathVariable(name = "name")String name){
         log.info("根据用户名查询用户name:"+name);
         User user= userService.getUser(name);
         log.info("根据用户名查询用户查到用户"+user.toString());
         return user.toString();
     }
 
-    @RequestMapping(value = "/save/{name}/{age}/{address}",method = RequestMethod.GET)
-    public String saveUserInfo(@PathVariable(name = "name")String name,@PathVariable(name = "age")Integer age,@PathVariable(name = "address")String address,ModelMap modelMap){
+    @ApiOperation(value = "添加用户",notes = "")
+    @RequestMapping(value = "/save/{name}/{age}/{address}",method = RequestMethod.POST)
+    public String saveUserInfo(@PathVariable(name = "name")String name,@PathVariable(name = "age")Integer age,@PathVariable(name = "address")String address){
         User user= userService.saveUser(name,age,address);
         return user.toString();
     }
