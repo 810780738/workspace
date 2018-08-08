@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parent-master/api/api.iml" filepath="$PROJECT_DIR$/parent-master/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-master/dao/dao.iml" filepath="$PROJECT_DIR$/parent-master/dao/dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-master/model/model.iml" filepath="$PROJECT_DIR$/parent-master/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-master/parent.iml" filepath="$PROJECT_DIR$/parent-master/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-master/resource/resource.iml" filepath="$PROJECT_DIR$/parent-master/resource/resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serverOne/serverOne.iml" filepath="$PROJECT_DIR$/serverOne/serverOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serverTwo/serverTwo.iml" filepath="$PROJECT_DIR$/serverTwo/serverTwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-master/service/service.iml" filepath="$PROJECT_DIR$/parent-master/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-master/utils/utils.iml" filepath="$PROJECT_DIR$/parent-master/utils/utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-master/web/web.iml" filepath="$PROJECT_DIR$/parent-master/web/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/workspace.iml" filepath="$PROJECT_DIR$/.idea/workspace.iml" />
+    </modules>
+  </component>
+</project>

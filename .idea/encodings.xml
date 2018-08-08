@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-master/api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-master/dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-master/model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-master/resource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-master/service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-master/utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-master/web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/serverOne" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/serverTwo" charset="UTF-8" />
+  </component>
+</project>
