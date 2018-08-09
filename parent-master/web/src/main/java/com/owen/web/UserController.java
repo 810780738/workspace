@@ -2,6 +2,7 @@ package com.owen.web;
 
 import com.owen.model.User;
 import com.owen.service.UserService;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ui.ModelMap;
@@ -14,6 +15,7 @@ import javax.annotation.Resource;
 
 @Slf4j
 @RestController
+@Api(value = "/user",description = "用户操作相关")
 public class UserController {
 
     @Resource(name = "userServiceImpl")
